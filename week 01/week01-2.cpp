@@ -1,8 +1,14 @@
 #include <stdio.h>
-
 int main()
 {
-    printf("Hello World\n");
-    printf("Hello World\n");
-    printf("我是韓雨潔");
+    printf("請輸入一個字母: ");
+    char c;///字母
+    scanf("%c", &c);
+    printf("你輸入了%c \n", c);
+
+    printf("請輸入一個整數: ");
+    int a;///整數
+    scanf("%d", &a);
+    printf("你輸入了 %d \n", a);
+    return 0;
 }
